@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Montserrat:wght@600&family=Sansita+Swashed:wght@300&family=Secular+One&family=Signika&family=VT323&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500&family=Montserrat:wght@600&family=Sansita+Swashed:wght@300&family=Secular+One&family=Signika&family=VT323&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +10,6 @@
 
 body{
     background: #edf2f8;
-    font-family: 'Barlow Semi Condensed', sans-serif;
     line-height: 1.7;
     font-size: 13px;
     /* margin: 30px; */
@@ -37,7 +38,6 @@ body{
     
 }
 
-
 .card{
     background-color: #fff;
     border-radius: 10px;
@@ -51,13 +51,25 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
 
 }
 
+.card__lead{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.card__quote{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+}
 .card__header h3{
     font-size: 15px;
 
 }
+
 .card__header p{
     opacity: 50%;
 
